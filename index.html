@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Cars</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- MENU -->
+    <div class="menu center target">
+      <div class="menu-line menu-line-1"></div>
+      <div class="menu-line menu-line-2"></div>
+    </div>
+    <!-- END OF MENU -->
+
+    <!-- NAVBAR -->
+    <nav class="navbar target">
+      <a href="#section-1" class="navbar-link">Home</a>
+      <a href="#section-2" class="navbar-link">Popular Cars</a>
+      <a href="#section-3" class="navbar-link">Video Gallery</a>
+      <a href="#section-4" class="navbar-link">Image Gallery</a
+      ><a href="#section-5" class="navbar-link">Contact</a>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <!-- SECTION 1 -->
+    <div class="wrapper">
+      <section class="section-1 center target" id="section-1">
+        <h1 class="section-heading section-1-heading">Classic Cars</h1>
+        <img src="images/car-section1.png" class="section-1-img" alt="" />
+      </section>
+    </div>
+    <!-- END OF SECTION 1 -->
+
+    <!-- SECTION 2 -->
+    <div class="wrapper">
+      <section class="section-2 center target" id="section-2">
+        <h1 class="section-heading section-2-heading">Popular Cars</h1>
+
+        <div class="cards-wrapper center">
+          <div class="card">
+            <h2 class="car-name">Car Name</h2>
+            <img src="images/car-1.jpg" class="card-img" alt="" />
+            <h3 class="car-price">$200,000</h3>
+            <button type="button" class="car-btn">See More</button>
+          </div>
+
+          <div class="card">
+            <h2 class="car-name">Car Name</h2>
+            <img src="images/car-2.jpg" class="card-img" alt="" />
+            <h3 class="car-price">$100,000</h3>
+            <button type="button" class="car-btn">See More</button>
+          </div>
+
+          <div class="card">
+            <h2 class="car-name">Car Name</h2>
+            <img src="images/car-3.jpg" class="card-img" alt="" />
+            <h3 class="car-price">$150,000</h3>
+            <button type="button" class="car-btn">See More</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- END OF SECTION 2 -->
+
+    <!-- SECTION 3 -->
+    <div class="wrapper">
+      <section class="section-3 center target" id="section-3">
+        <h1 class="section-heading">Video Gallery</h1>
+        <div class="videos-wrapper center">
+          <video
+            src="./images/car-video-1.mp4"
+            muted
+            loop
+            width="500px"
+            class="video"
+          ></video>
+
+          <video
+            src="./images/car-video-2.mp4"
+            muted
+            loop
+            width="500px"
+            class="video"
+          ></video>
+
+          <video
+            src="./images/car-video-3.mp4"
+            muted
+            loop
+            width="500px"
+            class="video"
+          ></video>
+        </div>
+
+        <div class="videos-wrapper center">
+          <video
+            src="./images/car-video-4.mp4"
+            muted
+            loop
+            width="500px"
+            class="video"
+          ></video>
+
+          <video
+            src="./images/car-video-5.mp4"
+            muted
+            loop
+            width="500px"
+            class="video"
+          ></video>
+
+          <video
+            src="./images/car-video-6.mp4"
+            muted
+            loop
+            width="500px"
+            class="video"
+          ></video>
+        </div>
+      </section>
+    </div>
+    <!-- END OF SECTION 3 -->
+
+    <!-- SECTION 4 -->
+    <div class="wrapper">
+      <section class="section-4 center target" id="section-4">
+        <h1 class="section-heading">Image Gallery</h1>
+        <div class="gallery center">
+          <div class="gallery-shelf"></div>
+          <img src="images/gallery-car-1.jpg" class="gallery-img-1" />
+          <img src="images/gallery-car-2.jpg" class="gallery-img-2" />
+          <img src="images/gallery-car-3.jpg" class="gallery-img-3" />
+        </div>
+
+        <div class="gallery center">
+          <div class="gallery-shelf"></div>
+          <img src="images/gallery-car-4.jpg" class="gallery-img-1" />
+          <img src="images/gallery-car-5.jpg" class="gallery-img-2" />
+          <img src="images/gallery-car-6.jpg" class="gallery-img-3" />
+        </div>
+      </section>
+    </div>
+    <!-- END OF SECTION 4 -->
+
+    <!-- SECTION 5 -->
+    <div class="wrapper">
+      <section class="section-5 center target" id="section-5">
+        <h1 class="section-heading">Contact Us</h1>
+        <form action="" class="contact-form">
+          <input type="text" class="form-input" placeholder="Your Full Name" />
+          <input type="email" class="form-input" placeholder="Your Email" />
+          <textarea class="form-input" placeholder="Enter Message"></textarea>
+          <input type="submit" class="form-btn" value="submit" />
+        </form>
+        <p class="copyright">Copyright &copy; Francisco Santana. Portfolio.</p>
+      </section>
+    </div>
+    <!-- END OF SECTION 5 -->
+  </body>
+</html>
